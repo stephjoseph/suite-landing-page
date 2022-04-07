@@ -3,3 +3,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  @media (min-width: 768px) {
+    #hero {
+      background-image: url("./images/image-hero-portrait.png");
+      background-repeat: no-repeat;
+      background-position: top right;
+      background-size: 17.563rem 30.125rem;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    #hero {
+      background-image: url("./images/image-hero-portrait.png");
+      background-repeat: no-repeat;
+      background-position: top right;
+      background-size: 21.875rem 37.5rem;
+    }
+  }
+}
